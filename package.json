@@ -1,0 +1,40 @@
+{
+  "name": "grunt-email-release",
+  "version": "0.0.1",
+  "description": "Email the release information.",
+  "homepage": "https://github.com/gsaini/grunt-email-release",
+  "repository": "https://github.com/gsaini/grunt-email-release.git",
+  "bugs": "https://github.com/gsaini/grunt-email-release.git/issues",
+  "author": {
+    "name": "Gopal Saini",
+    "email": "gopal.saini.work@gmail.com",
+    "url": "https://github.com/gsaini"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsaini/grunt-email-release.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.0rc2",
+    "load-grunt-tasks": "~0.2.0",
+    "jshint-stylish": "~0.1.3"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
